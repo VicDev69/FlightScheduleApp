@@ -1,0 +1,691 @@
+Flight	Departing	ATC	Duration	Arriving	ATC	Mon	Tue	Wed	Thu	Fri	Sat	Sun	Aircraft	Type	Book
+FL1055	EGCC (1929z)	VATSIM	01:55	ENGM (2124z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Oslo											
+FL1056	ENGM (2209z)	VATSIM	01:55	EGCC (0004z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Oslo			Manchester	IVAO										
+FL1057	EGCC (0735z)	VATSIM	02:00	LIMC (0935z)		Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Milan											
+FL1058	LIMC (1020z)		02:00	EGCC (1220z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Milan			Manchester	IVAO										
+FL137	EGLL (0610z)	VATSIM	01:30	EGPD (0740z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Aberdeen											
+FL138	EGPD (0825z)		01:30	EGLL (0955z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Aberdeen			London	IVAO										
+FL139	EGLL (1040z)	VATSIM	01:15	EGNT (1155z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Newcastle											
+FL140	EGNT (1240z)		01:15	EGLL (1355z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Newcastle			London	IVAO										
+FL141	EGLL (1440z)	VATSIM	01:30	EGPD (1610z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Aberdeen											
+FL142	EGPD (1655z)		01:30	EGLL (1825z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Aberdeen			London	IVAO										
+FL143	EGLL (1910z)	VATSIM	01:30	EGPD (2040z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Aberdeen											
+FL144	EGPD (2125z)		01:30	EGLL (2255z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Aberdeen			London	IVAO										
+FL246	LSGG (0840z)	VATSIM	01:35	EGLL (1015z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Geneva			London	IVAO										
+FL247	EGLL (1100z)	VATSIM	01:50	ENZV (1250z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Stavanger											
+FL248	ENZV (1335z)		02:00	EGLL (1535z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Stavanger			London	IVAO										
+FL249	EGLL (1620z)	VATSIM	03:00	LIRF (1920z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Rome											
+FL250	LIRF (2005z)		03:00	EGLL (2305z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Rome			London	IVAO										
+FL251	EGLL (0725z)	VATSIM	01:20	LFST (0845z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Strasbourg											
+FL252	LFST (0930z)		01:20	EGLL (1050z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Strasbourg			London	IVAO										
+FL253	EGLL (1135z)	VATSIM	02:00	ESGG (1335z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	London	IVAO		Gothenburg	IVAO										
+FL254	ESGG (1420z)	VATSIM	02:10	EGLL (1630z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Gothenburg	IVAO		London	IVAO										
+FL255	EGLL (1715z)	VATSIM	02:15	LPPR (1930z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Porto											
+FL256	LPPR (2015z)		02:10	EGLL (2225z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Porto			London	IVAO										
+FL275	EGLL (0645z)	VATSIM	02:10	ENGM (0855z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Oslo											
+FL276	ENGM (0940z)	VATSIM	02:20	EGLL (1200z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Oslo			London	IVAO										
+FL277	EGLL (1245z)	VATSIM	01:30	EDDF (1415z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Frankfurt	IVAO										
+FL278	EDDF (1500z)	VATSIM	01:45	EGLL (1645z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Frankfurt	IVAO		London	IVAO										
+FL279	EGLL (1730z)	VATSIM	02:20	LOWW (1950z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Vienna	IVAO										
+FL280	LOWW (2035z)	VATSIM	02:20	EGLL (2255z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Vienna	IVAO		London	IVAO										
+FL281	EGLL (0745z)	VATSIM	01:20	EGAA (0905z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Belfast											
+FL282	EGAA (0950z)		01:20	EGLL (1110z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Belfast			London	IVAO										
+FL283	EGLL (1155z)	VATSIM	01:00	EGNM (1255z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Leeds Bradford											
+FL284	EGNM (1340z)		01:00	EGLL (1440z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Leeds Bradford			London	IVAO										
+FL285	EGLL (1525z)	VATSIM	01:20	EGAA (1645z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Belfast											
+FL286	EGAA (1730z)		01:20	EGLL (1850z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Belfast			London	IVAO										
+FL287	EGLL (1935z)	VATSIM	01:00	EGNM (2035z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Leeds Bradford											
+FL288	EGNM (2120z)		01:00	EGLL (2220z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Leeds Bradford			London	IVAO										
+FL295	EGLL (0600z)	VATSIM	03:15	LROP (0915z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Bucharest											
+FL296	LROP (1000z)		03:20	EGLL (1320z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Bucharest			London	IVAO										
+FL297	EGLL (1405z)	VATSIM	01:35	LFSB (1540z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Basel/Mulhouse	IVAO										
+FL298	LFSB (1625z)	VATSIM	01:40	EGLL (1805z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Basel/Mulhouse	IVAO		London	IVAO										
+FL299	EGLL (1850z)	VATSIM	02:00	LEBL (2050z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Barcelona	IVAO										
+FL300	LEBL (2135z)		02:20	EGLL (2355z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Barcelona	IVAO		London	IVAO										
+FL309	UBBB (0425z)		06:05	EGLL (1030z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Baku			London	IVAO										
+FL310	EGLL (1115z)	VATSIM	04:50	OLBA (1605z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Beirut	IVAO										
+FL311	OLBA (1650z)		05:15	EGLL (2205z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Beirut	IVAO		London	IVAO										
+FL312	EGLL (0725z)	VATSIM	01:40	LSGG (0905z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	London	IVAO		Geneva											
+FL313	LSGG (0950z)	VATSIM	01:40	EGLL (1130z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Geneva			London	IVAO										
+FL314	EGLL (1215z)	VATSIM	03:50	GMMX (1605z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Marrakech											
+FL315	GMMX (1650z)		03:50	EGLL (2040z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Marrakech			London	IVAO										
+FL316	EGLL (2125z)	VATSIM	05:40	UBBB (0305z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Baku											
+FL390	EGKK (0610z)	VATSIM	01:25	EGPH (0735z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Edinburgh											
+FL391	EGPH (0820z)	VATSIM	01:25	EGKK (0945z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			London	IVAO										
+FL392	EGKK (1030z)	VATSIM	01:25	EGPF (1155z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Glasgow											
+FL393	EGPF (1240z)	VATSIM	01:25	EGKK (1405z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Glasgow			London	IVAO										
+FL394	EGKK (1450z)	VATSIM	01:25	EGPH (1615z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Edinburgh											
+FL395	EGPH (1700z)	VATSIM	01:25	EGKK (1825z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			London	IVAO										
+FL396	EGKK (1910z)	VATSIM	01:25	EGPF (2035z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Glasgow											
+FL397	EGPF (2120z)	VATSIM	01:25	EGKK (2245z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Glasgow			London	IVAO										
+FL398	EGKK (0645z)	VATSIM	01:25	EGPF (0810z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Glasgow											
+FL399	EGPF (0840z)	VATSIM	01:25	EGKK (1005z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Glasgow			London	IVAO										
+FL400	EGKK (1035z)	VATSIM	01:25	EGPH (1200z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Edinburgh											
+FL401	EGPH (1230z)	VATSIM	01:25	EGKK (1355z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			London	IVAO										
+FL402	EGKK (1425z)	VATSIM	01:20	EHAM (1545z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Amsterdam	IVAO										
+FL403	EHAM (1615z)	VATSIM	01:20	EGKK (1735z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Amsterdam	IVAO		London	IVAO										
+FL404	EGKK (1805z)	VATSIM	01:00	EGJJ (1905z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Jersey											
+FL405	EGJJ (1935z)	VATSIM	01:00	EGKK (2035z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Jersey			London	IVAO										
+FL406	EGKK (0715z)	VATSIM	01:05	EGCC (0820z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Manchester	IVAO										
+FL407	EGCC (0905z)	VATSIM	01:05	EGKK (1010z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		London	IVAO										
+FL408	EGKK (1055z)	VATSIM	01:20	EHAM (1215z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Amsterdam	IVAO										
+FL409	EHAM (1300z)	VATSIM	01:20	EGKK (1420z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Amsterdam	IVAO		London	IVAO										
+FL410	EGKK (1505z)	VATSIM	01:05	EGCC (1610z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Manchester	IVAO										
+FL411	EGCC (1655z)	VATSIM	01:05	EGKK (1800z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		London	IVAO										
+FL412	EGKK (1845z)	VATSIM	01:05	EGCC (1950z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Manchester	IVAO										
+FL413	EGCC (2035z)	VATSIM	01:05	EGKK (2140z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		London	IVAO										
+FL414	EGKK (0715z)	VATSIM	02:35	LDDU (0950z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Dubrovnik											
+FL415	LDDU (1020z)		02:50	EGKK (1310z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Dubrovnik			London	IVAO										
+FL416	EGKK (1340z)	VATSIM	02:00	LOWI (1540z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Innsbruck	IVAO										
+FL417	LOWI (1610z)	VATSIM	01:55	EGKK (1805z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Innsbruck	IVAO		London	IVAO										
+FL418	EGKK (1835z)	VATSIM	01:55	LSZH (2030z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Zurich	IVAO										
+FL419	LSZH (2100z)	VATSIM	01:50	EGKK (2250z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Zurich	IVAO		London	IVAO										
+FL420	EGKK (0745z)	VATSIM	02:00	LFMN (0945z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Nice											
+FL421	LFMN (1030z)		02:00	EGKK (1230z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Nice			London	IVAO										
+FL422	EGKK (1315z)	VATSIM	01:35	LFBD (1450z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Bordeaux											
+FL423	LFBD (1535z)		01:35	EGKK (1710z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Bordeaux			London	IVAO										
+FL424	EGKK (1755z)	VATSIM	02:00	LEBL (1955z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Barcelona	IVAO										
+FL425	LEBL (2040z)		02:10	EGKK (2250z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Barcelona	IVAO		London	IVAO										
+FL426	EGKK (0605z)	VATSIM	02:00	LEBL (0805z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Barcelona	IVAO										
+FL427	LEBL (0850z)		02:10	EGKK (1100z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Barcelona	IVAO		London	IVAO										
+FL428	EGKK (1145z)	VATSIM	02:50	LPFR (1435z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Faro											
+FL429	LPFR (1520z)	VATSIM	02:50	EGKK (1810z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Faro			London	IVAO										
+FL430	EGKK (1855z)	VATSIM	01:50	LEBB (2045z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Bilbao	IVAO										
+FL431	LEBB (2130z)		01:50	EGKK (2320z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Bilbao	IVAO		London	IVAO										
+FL432	EGKK (0705z)	VATSIM	02:00	ENGM (0905z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Oslo											
+FL433	ENGM (0950z)	VATSIM	02:00	EGKK (1150z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Oslo			London	IVAO										
+FL434	EGKK (1235z)	VATSIM	02:05	LIPZ (1440z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Venice	IVAO										
+FL435	LIPZ (1525z)		02:05	EGKK (1730z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Venice	IVAO		London	IVAO										
+FL436	EGKK (1815z)	VATSIM	02:00	LFMN (2015z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Nice											
+FL437	LFMN (2100z)		02:00	EGKK (2300z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Nice			London	IVAO										
+FL438	EGKK (0605z)	VATSIM	03:40	GMMX (0945z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Marrakech											
+FL439	GMMX (1030z)		03:40	EGKK (1410z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Marrakech			London	IVAO										
+FL440	EGKK (1455z)	VATSIM	02:45	EVRA (1740z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Riga											
+FL441	EVRA (1825z)		02:50	EGKK (2115z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Riga			London	IVAO										
+FL442	EGKK (0620z)	VATSIM	03:15	ENTC (0935z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Tromso											
+FL443	ENTC (1020z)		03:45	EGKK (1405z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Tromso			London	IVAO										
+FL444	EGKK (0645z)	VATSIM	02:05	LIPX (0850z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Verona											
+FL445	LIPX (0930z)		02:05	EGKK (1135z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Verona			London	IVAO										
+FL446	EGKK (1215z)	VATSIM	02:05	LOWG (1420z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Graz	IVAO										
+FL447	LOWG (1505z)		02:05	EGKK (1710z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Graz	IVAO		London	IVAO										
+FL448	EGKK (1755z)	VATSIM	02:00	LEBB (1955z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Bilbao	IVAO										
+FL449	LEBB (2040z)		02:00	EGKK (2240z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Bilbao	IVAO		London	IVAO										
+FL450	EGKK (1755z)	VATSIM	02:20	LPPR (2015z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Porto											
+FL451	LPPR (2100z)		02:20	EGKK (2320z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Porto			London	IVAO										
+FL452	EGKK (0605z)	VATSIM	02:35	LIRN (0840z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Naples											
+FL453	LIRN (0925z)		02:50	EGKK (1215z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Naples			London	IVAO										
+FL454	EGKK (1300z)	VATSIM	02:10	LIRQ (1510z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Florence											
+FL455	LIRQ (1555z)		02:20	EGKK (1815z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Florence			London	IVAO										
+FL456	EGKK (1900z)	VATSIM	02:15	LEAL (2115z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Alicante	IVAO										
+FL457	LEAL (2200z)		02:15	EGKK (0015z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Alicante	IVAO		London	IVAO										
+FL458	EGKK (0705z)	VATSIM	02:15	EPWR (0920z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Wroclaw											
+FL459	EPWR (1005z)		02:15	EGKK (1220z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Wroclaw			London	IVAO										
+FL460	EGKK (1305z)	VATSIM	01:45	LIMF (1450z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Turin											
+FL461	LIMF (1535z)		01:55	EGKK (1730z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Turin			London	IVAO										
+FL462	EGKK (1810z)	VATSIM	02:00	ENGM (2010z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Oslo											
+FL463	ENGM (2055z)	VATSIM	02:00	EGKK (2255z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Oslo			London	IVAO										
+FL464	EGKK (0645z)	VATSIM	02:50	LEMG (0935z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Malaga	IVAO										
+FL465	LEMG (1005z)		02:40	EGKK (1245z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Malaga	IVAO		London	IVAO										
+FL466	EGKK (1315z)	VATSIM	02:00	LJLJ (1515z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Ljubljana	IVAO										
+FL467	LJLJ (1545z)		02:00	EGKK (1745z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Ljubljana	IVAO		London	IVAO										
+FL468	EGKK (1815z)	VATSIM	02:00	LOWS (2015z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Salzburg	IVAO										
+FL469	LOWS (2045z)	VATSIM	02:00	EGKK (2245z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Salzburg	IVAO		London	IVAO										
+FL470	EGKK (0605z)	VATSIM	02:15	LEPA (0820z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Palma	IVAO										
+FL471	LEPA (0850z)		02:35	EGKK (1125z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Palma	IVAO		London	IVAO										
+FL472	EGKK (1155z)	VATSIM	02:25	LEMD (1420z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Madrid	IVAO										
+FL473	LEMD (1450z)	VATSIM	02:20	EGKK (1710z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Madrid	IVAO		London	IVAO										
+FL474	EGKK (1740z)	VATSIM	02:15	LEPA (1955z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Palma	IVAO										
+FL475	LEPA (2025z)		02:35	EGKK (2300z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Palma	IVAO		London	IVAO										
+FL476	EGKK (0720z)	VATSIM	04:00	LPMA (1120z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Madeira											
+FL477	LPMA (1205z)		03:50	EGCC (1555z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Madeira			Manchester	IVAO										
+FL478	EGKK (1640z)	VATSIM	02:20	LIEO (1900z)			Y		Y		Y		A320	Scheduled	
+	London	IVAO		Olbia											
+FL479	LIEO (1945z)		02:20	EGKK (2205z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Olbia			London	IVAO										
+FL480	EGKK (0610z)	VATSIM	02:40	LYBE (0850z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Belgrade	IVAO										
+FL481	LYBE (0920z)		02:40	EGKK (1200z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Belgrade	IVAO		London	IVAO										
+FL482	EGKK (1230z)	VATSIM	02:05	LEAS (1435z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Asturias	IVAO										
+FL483	LEAS (1505z)		02:05	EGKK (1710z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Asturias	IVAO		London	IVAO										
+FL484	EGKK (1740z)	VATSIM	02:50	EETN (2030z)		Y		Y		Y		Y	A320	Scheduled	
+	London	IVAO		Tallin											
+FL485	EETN (2100z)		02:50	EGLL (2350z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Tallin			London	IVAO										
+FL486	EGKK (0650z)	VATSIM	01:40	EDDP (0830z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Leipzig	IVAO										
+FL487	EDDP (0900z)	VATSIM	01:40	EGKK (1040z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Leipzig	IVAO		London	IVAO										
+FL488	EGKK (1110z)	VATSIM	01:00	EGJJ (1210z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Jersey											
+FL489	EGKK (1240z)	VATSIM	01:00	EGJJ (1340z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Jersey											
+FL490	EGKK (1410z)	VATSIM	01:40	EKBI (1550z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Billund											
+FL491	EKBI (1620z)		01:40	EGKK (1800z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Billund			London	IVAO										
+FL492	EGKK (1830z)	VATSIM	02:05	LIMJ (2035z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	London	IVAO		Genoa											
+FL493	LIMJ (2105z)		02:00	EGKK (2305z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Genoa			London	IVAO										
+FL6115	NZAA (1700z)	VATSIM	02:10	NZDN (1910z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Dunedin											
+FL6116	NZDN (1940z)		02:05	NZAA (2145z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Dunedin			Auckland											
+FL6117	NZAA (2215z)	VATSIM	03:10	NWWW (0125z)		Y		Y		Y		Y	A320	Topa Sky	
+	Auckland			Noumea											
+FL6118	NWWW (0155z)		03:00	NZAA (0455z)	VATSIM	Y		Y		Y		Y	A320	Topa Sky	
+	Noumea			Auckland											
+FL6119	NZAA (2215z)	VATSIM	04:10	NCRG (0225z)			Y		Y		Y		A320	Topa Sky	
+	Auckland			Avarua											
+FL6120	NCRG (0255z)		04:45	NZAA (0740z)	VATSIM		Y		Y		Y		A320	Topa Sky	
+	Avarua			Auckland											
+FL6121	NZAA (0525z)	VATSIM	02:10	NZQN (0735z)		Y		Y		Y		Y	A320	Topa Sky	
+	Auckland			Queenstown											
+FL6122	NZQN (0805z)		02:00	NZAA (1005z)	VATSIM	Y		Y		Y		Y	A320	Topa Sky	
+	Queenstown			Auckland											
+FL6123	NZAA (0810z)	VATSIM	02:10	NZQN (1020z)			Y		Y		Y		A320	Topa Sky	
+	Auckland			Queenstown											
+FL6124	NZQN (1050z)		02:00	NZAA (1250z)	VATSIM		Y		Y		Y		A320	Topa Sky	
+	Queenstown			Auckland											
+FL6125	NZAA (1730z)	VATSIM	03:45	YSSY (2115z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Sydney											
+FL6126	YSSY (2145z)		03:10	NZAA (0055z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Sydney			Auckland											
+FL6127	NZAA (0125z)	VATSIM	05:35	YBCS (0700z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Cairns											
+FL6128	YBCS (0730z)		04:55	NZAA (1225z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Cairns			Auckland											
+FL6129	NZAA (1255z)	VATSIM	01:25	NZWN (1420z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Wellington											
+FL6130	NZWN (1450z)		01:25	NZCH (1615z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Christchurch											
+FL6131	NZWN (1645z)		04:00	YSCB (2045z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Canberra											
+FL6132	YSCB (2115z)		03:20	NZWN (0035z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Canberra			Wellington											
+FL6133	NZWN (0105z)		01:15	NZHN (0220z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Hamilton											
+FL6134	NZHN (0250z)		01:15	NZWN (0405z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Hamilton			Wellington											
+FL6135	NZWN (0435z)		01:50	NZNV (0625z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Invercargill											
+FL6136	NZNV (0655z)		01:40	NZWN (0835z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Invercargill			Wellington											
+FL6137	NZWN (0905z)		01:15	NZRO (1020z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Rotorua											
+FL6138	NZRO (1050z)		01:15	NZWN (1205z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Rotorua			Wellington											
+FL6139	NZWN (1235z)		01:15	NZTG (1350z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Tauranga											
+FL6140	NZTG (1420z)		01:20	NZWN (1540z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Tauranga			Wellington											
+FL6141	NZWN (1630z)		01:25	NZCH (1755z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Christchurch											
+FL6142	NZAA (1825z)	VATSIM	01:25	NZWN (1950z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Wellington											
+FL6143	NZWN (2020z)		01:40	NZDN (2200z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Dunedin											
+FL6144	NZDN (2230z)		01:35	NZWN (0005z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Dunedin			Wellington											
+FL6145	NZWN (0035z)		01:40	NZQN (0215z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Queenstown											
+FL6146	NZQN (0245z)		01:35	NZWN (0420z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Queenstown			Wellington											
+FL6147	NZWN (0450z)		01:50	NZNV (0640z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Invercargill											
+FL6148	NZNV (0710z)		01:40	NZWN (0850z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Invercargill			Wellington											
+FL6149	NZWN (0920z)		01:25	NZCH (1045z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Christchurch											
+FL6150	NZAA (1115z)	VATSIM	01:25	NZWN (1240z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Wellington											
+FL6151	NZWN (1615z)		03:50	YSSY (2005z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Sydney											
+FL6152	YSSY (2035z)		03:15	NZWN (2350z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Sydney			Wellington											
+FL6153	NZWN (0020z)		04:00	NFFN (0420z)		Y		Y		Y		Y	A320	Topa Sky	
+	Wellington			Nadi											
+FL6154	NFFN (0450z)		04:00	NZWN (0850z)		Y		Y		Y		Y	A320	Topa Sky	
+	Nadi			Wellington											
+FL6155	NZWN (0020z)		04:40	NSTU (0500z)			Y		Y		Y		A320	Topa Sky	
+	Wellington			Pago Pago											
+FL6156	NSTU (0530z)		05:00	NZWN (1030z)			Y		Y		Y		A320	Topa Sky	
+	Pago Pago			Wellington											
+FL6157	NZWN (0920z)		01:25	NZCH (1045z)		Y		Y		Y		Y	A320	Topa Sky	
+	Wellington			Christchurch											
+FL6158	NZAA (1115z)	VATSIM	01:25	NZWN (1240z)		Y		Y		Y		Y	A320	Topa Sky	
+	Auckland			Wellington											
+FL6159	NZWN (1100z)		01:25	NZCH (1225z)			Y		Y		Y		A320	Topa Sky	
+	Wellington			Christchurch											
+FL6160	NZAA (1255z)	VATSIM	01:25	NZWN (1420z)			Y		Y		Y		A320	Topa Sky	
+	Auckland			Wellington											
+FL6161	NZCH (1715z)		01:35	NZHN (1850z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Hamilton											
+FL6162	NZHN (1920z)		01:40	NZCH (2100z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Hamilton			Christchurch											
+FL6163	NZCH (2130z)		01:30	NZNR (2300z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Napier											
+FL6164	NZNR (2330z)		01:35	NZCH (0105z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Napier			Christchurch											
+FL6165	NZCH (0135z)		01:40	NZTG (0315z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Tauranga											
+FL6166	NZTG (0345z)		01:45	NZCH (0530z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Tauranga			Christchurch											
+FL6167	NZCH (0600z)		01:45	NZAA (0745z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Auckland											
+FL6168	NZAA (0815z)	VATSIM	01:45	NZCH (1000z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Auckland			Christchurch											
+FL6169	NZCH (1030z)		01:10	NZDN (1140z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Dunedin											
+FL6170	NZDN (1210z)		01:10	NZCH (1320z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Dunedin			Christchurch											
+FL6171	NZCH (1755z)		04:10	YMML (2205z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Melbourne											
+FL6172	YMML (2235z)		03:25	NZCH (0200z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Melbourne			Christchurch											
+FL6173	NZCH (0230z)		01:15	NZQN (0345z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Queenstown											
+FL6174	NZQN (0415z)		01:10	NZCH (0525z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Queenstown			Christchurch											
+FL6175	NZCH (0555z)		01:05	NZWN (0700z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Wellington											
+FL6176	NZWN (0730z)		01:10	NZCH (0840z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Wellington			Christchurch											
+FL6177	NZCH (0910z)		01:35	NZHN (1045z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Christchurch			Hamilton											
+FL6178	NZHN (1115z)		01:40	NZCH (1255z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Hamilton			Christchurch											
+FL6231	YBBN (1900z)		01:45	YSSY (2045z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Sydney											
+FL6232	YSSY (2115z)		01:45	YBBN (2300z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Sydney			Brisbane											
+FL6233	YBBN (2330z)		02:25	YSNF (0155z)			Y		Y		Y		A320	Topa Sky	
+	Brisbane			Norfolk Island											
+FL6234	YSNF (0225z)		02:50	YBBN (0515z)			Y		Y		Y		A320	Topa Sky	
+	Norfolk Island			Brisbane											
+FL6235	YBBN (2330z)		03:05	YMHB (0235z)		Y		Y		Y		Y	A320	Topa Sky	
+	Brisbane			Hobart											
+FL6236	YMHB (0305z)		02:55	YBBN (0600z)		Y		Y		Y		Y	A320	Topa Sky	
+	Hobart			Brisbane											
+FL6237	YBBN (0545z)		03:20	AGGH (0905z)			Y		Y		Y		A320	Topa Sky	
+	Brisbane			Honiara											
+FL6238	AGGH (0935z)		03:25	YBBN (1300z)			Y		Y		Y		A320	Topa Sky	
+	Honiara			Brisbane											
+FL6239	YBBN (0630z)		03:00	NVVV (0930z)		Y		Y		Y		Y	A320	Topa Sky	
+	Brisbane			Port Vila											
+FL6240	NVVV (1000z)		03:15	YBBN (1315z)		Y		Y		Y		Y	A320	Topa Sky	
+	Port Vila			Brisbane											
+FL6241	YBBN (1345z)		01:35	YWLM (1520z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Newcastle											
+FL6242	YWLM (1550z)		01:35	YBBN (1725z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Newcastle			Brisbane											
+FL6243	YBBN (1935z)		02:55	YMLT (2230z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Launceston											
+FL6244	YMLT (2300z)		02:45	YBBN (0145z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Launceston			Brisbane											
+FL6245	YBBN (0215z)		02:05	YSCB (0420z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Canberra											
+FL6246	YSCB (0450z)		01:55	YBBN (0645z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Canberra			Brisbane											
+FL6247	YBBN (0715z)		05:10	YBRM (1225z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Broome											
+FL6248	YBRM (1255z)		04:30	YBBN (1725z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Broome			Brisbane											
+FL6249	YBBN (1945z)		02:00	YBPN (2145z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Prosserpine											
+FL6250	YBPN (2215z)		01:55	YBBN (0010z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Prosserpine			Brisbane											
+FL6251	YBBN (0040z)		02:00	YBHM (0240z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Hamilton Island											
+FL6252	YBHM (0310z)		01:55	YBBN (0505z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Hamilton Island			Brisbane											
+FL6253	YBBN (0535z)		01:50	YBMK (0725z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Mackay											
+FL6254	YBMK (0755z)		01:45	YBBN (0940z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Mackay			Brisbane											
+FL6255	YBBN (1010z)		03:20	AGGH (1330z)		Y		Y		Y		Y	A320	Topa Sky	
+	Brisbane			Honiara											
+FL6256	AGGH (1400z)		03:25	YBBN (1725z)		Y		Y		Y		Y	A320	Topa Sky	
+	Honiara			Brisbane											
+FL6257	YBBN (1010z)		03:00	NVVV (1310z)			Y		Y		Y		A320	Topa Sky	
+	Brisbane			Port Vila											
+FL6258	NVVV (1340z)		03:15	YBBN (1655z)			Y		Y		Y		A320	Topa Sky	
+	Port Vila			Brisbane											
+FL6259	YBCS (2000z)		02:25	YBBN (2225z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Cairns			Brisbane											
+FL6260	YBBN (2255z)		02:35	YBCS (0130z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Brisbane			Cairns											
+FL6261	YBCS (0200z)		03:40	YMML (0540z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Cairns			Melbourne											
+FL6262	YMML (0610z)		03:35	YBCS (0945z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Melbourne			Cairns											
+FL6263	YBCS (1015z)		03:00	YPDN (1315z)		Y		Y		Y		Y	A320	Topa Sky	
+	Cairns			Darwin											
+FL6264	YPDN (1345z)		02:45	YBCS (1630z)		Y		Y		Y		Y	A320	Topa Sky	
+	Darwin			Cairns											
+FL6265	YBCS (1015z)		02:35	YBCG (1250z)			Y		Y		Y		A320	Topa Sky	
+	Cairns			Gold Coast											
+FL6266	YBCG (1320z)		02:45	YBCS (1605z)			Y		Y		Y		A320	Topa Sky	
+	Gold Coast			Cairns											
+FL6267	YBCS (2030z)		02:45	YBAS (2315z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Cairns			Alice Springs											
+FL6268	YBAS (2345z)		01:10	YAYE (0055z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Alice Springs			Ayres Rock											
+FL6269	YAYE (0125z)		02:50	YBCS (0415z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Ayres Rock			Cairns											
+FL6270	YBCS (0445z)		03:50	YSNF (0835z)			Y		Y		Y		A320	Topa Sky	
+	Cairns			Norfolk Island											
+FL6271	YSNF (0905z)		04:15	YBCS (1320z)			Y		Y		Y		A320	Topa Sky	
+	Norfolk Island			Cairns											
+FL6272	YBCS (0445z)		01:30	YBHM (0615z)		Y		Y		Y		Y	A320	Topa Sky	
+	Cairns			Hamilton Island											
+FL6273	YBHM (0645z)		01:25	YBCS (0810z)		Y		Y		Y		Y	A320	Topa Sky	
+	Hamilton Island			Cairns											
+FL6274	YBCS (0840z)		01:30	YBMK (1010z)		Y		Y		Y		Y	A320	Topa Sky	
+	Cairns			Mackay											
+FL6275	YBMK (1040z)		01:35	YBCS (1215z)		Y		Y		Y		Y	A320	Topa Sky	
+	Mackay			Cairns											
+FL6276	YBCS (1350z)		01:50	AYPY (1540z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Cairns			Port Moresby											
+FL6277	AYPY (1610z)		01:50	YBCS (1800z)		Y	Y	Y	Y	Y	Y	Y	A320	Topa Sky	
+	Port Moresby			Cairns											
+FL820	EGCC (0605z)	VATSIM	01:20	EHAM (0725z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Amsterdam	IVAO										
+FL821	EHAM (0810z)	VATSIM	01:20	EGCC (0930z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Amsterdam	IVAO		Manchester	IVAO										
+FL822	EGCC (1015z)	VATSIM	01:20	EBBR (1135z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Brussels	IVAO										
+FL823	EBBR (1220z)	VATSIM	01:20	EGCC (1340z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Brussels	IVAO		Manchester	IVAO										
+FL824	EGCC (1425z)	VATSIM	02:20	LEMD (1645z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Madrid	IVAO										
+FL825	LEMD (1730z)	VATSIM	02:20	EGCC (1950z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Madrid	IVAO		Manchester	IVAO										
+FL826	EGCC (2035z)	VATSIM	01:00	EIDW (2135z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Dublin											
+FL827	EIDW (2220z)	VATSIM	01:00	EGCC (2320z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Dublin			Manchester	IVAO										
+FL828	EGCC (0600z)	VATSIM	01:20	LFPG (0720z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Paris											
+FL829	LFPG (0805z)		01:20	EGCC (0925z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Paris			Manchester	IVAO										
+FL830	EGCC (1010z)	VATSIM	02:00	EDDM (1210z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Munich	IVAO										
+FL831	EDDM (1255z)	VATSIM	02:00	EGCC (1455z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Munich	IVAO		Manchester	IVAO										
+FL832	EGCC (1540z)	VATSIM	01:20	EHAM (1700z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Amsterdam	IVAO										
+FL833	EHAM (1745z)	VATSIM	01:20	EGCC (1905z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Amsterdam	IVAO		Manchester	IVAO										
+FL834	EGCC (1950z)	VATSIM	01:40	LFPG (2130z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Paris											
+FL835	LFPG (2215z)		01:40	EGCC (2355z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Paris			Manchester	IVAO										
+FL836	EGCC (0605z)	VATSIM	01:00	EIDW (0705z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Dublin											
+FL837	EIDW (0750z)	VATSIM	01:00	EGCC (0850z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Dublin			Manchester	IVAO										
+FL838	EGCC (0935z)	VATSIM	01:45	EDDF (1120z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Frankfurt	IVAO										
+FL839	EDDF (1205z)	VATSIM	01:45	EGCC (1350z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Frankfurt	IVAO		Manchester	IVAO										
+FL840	EGCC (1435z)	VATSIM	02:00	LFMN (1635z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Nice											
+FL841	LFMN (1720z)		02:00	EGCC (1920z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Nice			Manchester	IVAO										
+FL842	EGCC (2005z)	VATSIM	01:15	EICK (2120z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Cork											
+FL843	EICK (2205z)		01:15	EGCC (2320z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Cork			Manchester	IVAO										
+FL872	EGCC (0645z)	VATSIM	02:00	LEBB (0845z)		Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Bilbao	IVAO										
+FL873	LEBB (0930z)		02:00	EGCC (1130z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Bilbao	IVAO		Manchester	IVAO										
+FL874	EGCC (1215z)	VATSIM	02:20	ESSA (1435z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Stockholm											
+FL875	ESSA (1520z)	VATSIM	02:20	EGCC (1740z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Stockholm			Manchester	IVAO										
+FL876	EGCC (1825z)	VATSIM	01:55	LSGG (2020z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Geneva											
+FL877	LSGG (2105z)	VATSIM	01:55	EGCC (2300z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Geneva			Manchester	IVAO										
+FL878	EGCC (0635z)	VATSIM	01:50	EKCH (0825z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Copenhagen											
+FL879	EKCH (0910z)	VATSIM	01:50	EGCC (1100z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Copenhagen			Manchester	IVAO										
+FL880	EGCC (1145z)	VATSIM	02:35	LIRF (1420z)			Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Rome											
+FL881	LIRF (1505z)		02:35	EGCC (1740z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Rome			Manchester	IVAO										
+FL882	EGCC (1825z)	VATSIM	01:45	LFLL (2010z)			Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Lyon	IVAO										
+FL883	LFLL (2055z)		01:45	EGCC (2240z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Lyon	IVAO		Manchester	IVAO										
+FL884	EGCC (0605z)	VATSIM	02:35	EPWA (0840z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Warsaw	IVAO										
+FL885	EPWA (0915z)	VATSIM	02:35	EGCC (1150z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Warsaw	IVAO		Manchester	IVAO										
+FL886	EGCC (1225z)	VATSIM	01:40	LFLL (1405z)		Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Lyon	IVAO										
+FL887	LFLL (1450z)		01:45	EGCC (1635z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Lyon	IVAO		Manchester	IVAO										
+FL888	EGCC (1720z)	VATSIM	02:20	LKPR (1940z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Prague											
+FL889	LKPR (2025z)	VATSIM	02:20	EGCC (2245z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Prague			Manchester	IVAO										
+FL890	EGCC (1225z)	VATSIM	03:00	EFHK (1525z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Helsinki											
+FL891	EFHK (1555z)	VATSIM	03:00	EGCC (1855z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Helsinki			Manchester	IVAO										
+FL892	EGCC (1925z)	VATSIM	02:00	LIMC (2125z)			Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Milan											
+FL893	LIMC (2155z)		02:00	EGCC (2355z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Milan			Manchester	IVAO										
+FL894	EGCC (0735z)	VATSIM	01:50	EKCH (0925z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Copenhagen											
+FL895	EKCH (1010z)	VATSIM	01:50	EGCC (1200z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Copenhagen			Manchester	IVAO										
+FL896	EGCC (1245z)	VATSIM	01:55	LSZH (1440z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Zurich	IVAO										
+FL897	LSZH (1525z)	VATSIM	01:55	EGCC (1720z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Zurich	IVAO		Manchester	IVAO										
+FL898	EGCC (1805z)	VATSIM	01:55	LSGG (2000z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Manchester	IVAO		Geneva											
+FL899	LSGG (2045z)	VATSIM	01:45	EGCC (2230z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Geneva			Manchester	IVAO										
+FL900	EGCC (0600z)	VATSIM	03:45	LGAV (0945z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Athens											
+FL901	LGAV (1030z)	VATSIM	03:45	EGCC (1415z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Athens			Manchester	IVAO										
+FL902	EGCC (1500z)	VATSIM	01:45	ENBR (1645z)			Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Bergen											
+FL903	ENBR (1730z)		01:45	EGCC (1915z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Bergen			Manchester	IVAO										
+FL904	EGCC (2000z)	VATSIM	02:05	LOWW (2205z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Manchester	IVAO		Vienna	IVAO										
+FL905	LOWW (2250z)	VATSIM	02:05	EGCC (0055z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Vienna	IVAO		Manchester	IVAO										
+FL906	EGCC (0635z)	VATSIM	02:45	LPPT (0920z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Lisbon	IVAO										
+FL907	LPPT (1005z)	VATSIM	02:45	EGCC (1250z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Lisbon	IVAO		Manchester	IVAO										
+FL908	EGCC (1335z)	VATSIM	02:12	LEBL (1547z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Manchester	IVAO		Barcelona	IVAO										
+FL909	LEBL (1632z)		02:12	EGCC (1844z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Barcelona	IVAO		Manchester	IVAO										
+FL932	EGPH (0610z)	VATSIM	03:30	LPPT (0940z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			Lisbon	IVAO										
+FL933	LPPT (1025z)	VATSIM	03:30	EGPH (1355z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Lisbon	IVAO		Edinburgh											
+FL934	EGPH (1440z)	VATSIM	02:45	BIKF (1725z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Edinburgh			Keflavik											
+FL935	BIKF (1810z)	VATSIM	02:45	EGPH (2055z)	VATSIM	Y		Y		Y		Y	A320	Scheduled	
+	Keflavik			Edinburgh											
+FL936	EGPH (1440z)	VATSIM	03:15	LPFR (1755z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Edinburgh			Faro											
+FL937	LPFR (1840z)	VATSIM	03:15	EGPH (2155z)	VATSIM		Y		Y		Y		A320	Scheduled	
+	Faro			Edinburgh											
+FL961	LOWI (1820z)	VATSIM	02:50	EGPH (2110z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Innsbruck	IVAO		Edinburgh											
+FL962	EGPH (0645z)	VATSIM	01:40	ENGM (0825z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			Oslo											
+FL963	ENGM (0910z)	VATSIM	01:40	EGPH (1050z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Oslo			Edinburgh											
+FL964	EGPH (1135z)	VATSIM	02:20	LIMC (1355z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			Milan											
+FL965	LIMC (1440z)		02:20	EGPH (1700z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Milan			Edinburgh											
+FL966	EGPH (1745z)	VATSIM	02:30	LEBL (2015z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			Barcelona	IVAO										
+FL967	LEBL (2100z)		02:30	EGPH (2330z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Barcelona	IVAO		Edinburgh											
+FL968	EGPH (0650z)	VATSIM	02:35	EPWA (0925z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			Warsaw	IVAO										
+FL969	EPWA (1010z)	VATSIM	03:00	EGPH (1310z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Warsaw	IVAO		Edinburgh											
+FL970	EGPH (1355z)	VATSIM	03:30	LBSF (1725z)		Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Edinburgh			Sofia											
+FL971	LBSF (1810z)		03:50	EGPH (2200z)	VATSIM	Y	Y	Y	Y	Y	Y	Y	A320	Scheduled	
+	Sofia			Edinburgh															

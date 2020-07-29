@@ -1,0 +1,25 @@
+<FLIGHT>
+<Airline>MET</Airline>
+<FlightNumber>6001</FlightNumber>
+<From>KSEA</From>
+<To>KJFK</To>
+<Aircraft>N4242</Aircraft>
+<AircraftType>A321</AircraftType>
+<AircraftATCType>A321</AircraftATCType>
+<STD>2020/05/15 13:50</STD>
+<STA>2020/05/15 19:15</STA>
+<MaxPax>186</MaxPax>
+<MaxCargo>17000</MaxCargo>
+<RandomPayload>1</RandomPayload>
+<Repetative>1</Repetative>
+<IsMaster>1</IsMaster>
+<BeginDate>2020/05/15 00:00</BeginDate>
+<EndDate>2021/05/15 23:59</EndDate>
+<Days>1234567</Days>
+<Adults>-1</Adults>
+<Females>-1</Females>
+<Children>-1</Children>
+<Infants>-1</Infants>
+<Cargo>-1</Cargo>
+<Payload>-1</Payload>
+</FLIGHT>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PFPX_FLIGHT_LIST">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="FLIGHT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Airline" type="xs:string" />
+              <xs:element name="FlightNumber" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="CommercialFlightNumber" type="xs:string" />
+              <xs:element name="From" type="xs:string" />
+              <xs:element name="To" type="xs:string" />
+              <xs:element name="Aircraft" type="xs:string" />
+              <xs:element name="AircraftType" type="xs:string" />
+              <xs:element name="AircraftATCType" type="xs:string" />
+              <xs:element name="STD" type="xs:string" />
+              <xs:element name="STA" type="xs:string" />
+              <xs:element name="MaxPax" type="xs:unsignedByte" />
+              <xs:element name="MaxCargo" type="xs:unsignedShort" />
+              <xs:element name="RandomPayload" type="xs:unsignedByte" />
+              <xs:element name="Repetative" type="xs:unsignedByte" />
+              <xs:element name="IsMaster" type="xs:unsignedByte" />
+              <xs:element name="BeginDate" type="xs:string" />
+              <xs:element name="EndDate" type="xs:string" />
+              <xs:element name="Days" type="xs:unsignedInt" />
+              <xs:element name="Adults" type="xs:byte" />
+              <xs:element name="Females" type="xs:byte" />
+              <xs:element name="Children" type="xs:byte" />
+              <xs:element name="Infants" type="xs:byte" />
+              <xs:element minOccurs="0" name="Baggage" type="xs:byte" />
+              <xs:element name="Cargo" type="xs:byte" />
+              <xs:element name="Payload" type="xs:byte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

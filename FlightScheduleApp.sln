@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightScheduleApp", "FlightScheduleApp\FlightScheduleApp.csproj", "{7F45B802-E7EC-4721-AFE3-8F244AA0A02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTimes", "FlightTimes\FlightTimes.csproj", "{5AA93A66-1526-4F9C-8DF7-4A2724E0C511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F45B802-E7EC-4721-AFE3-8F244AA0A02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F45B802-E7EC-4721-AFE3-8F244AA0A02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F45B802-E7EC-4721-AFE3-8F244AA0A02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F45B802-E7EC-4721-AFE3-8F244AA0A02F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA93A66-1526-4F9C-8DF7-4A2724E0C511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA93A66-1526-4F9C-8DF7-4A2724E0C511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA93A66-1526-4F9C-8DF7-4A2724E0C511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA93A66-1526-4F9C-8DF7-4A2724E0C511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65184483-FBA8-4CFD-AEBC-A298521F9CC8}
+	EndGlobalSection
+EndGlobal
