@@ -15,6 +15,8 @@ namespace FlightScheduleApp
 {
     public partial class Form1 : Form
     {
+        DateTime dtBegin;
+        DateTime dtEnd;
         public Form1()
         {
             InitializeComponent();
@@ -24,8 +26,8 @@ namespace FlightScheduleApp
         {
             string fname = string.Empty;
 
-            DateTime dtBegin = dtpBegin.Value;
-            DateTime dtEnd = dtpEnd.Value;
+            dtBegin = dtpBegin.Value;
+            dtEnd = dtpEnd.Value;
             int res = dtEnd.CompareTo(dtBegin);
             if (dtEnd.CompareTo(dtBegin) < 0)
             {
@@ -40,6 +42,7 @@ namespace FlightScheduleApp
             if (dgfOpenTxt.ShowDialog() == DialogResult.OK)
             {
                 fname = dgfOpenTxt.FileName;
+                string fType = fname.Substring(fname.LastIndexOf('.')+1);
                 if (!string.IsNullOrEmpty(fname))
                 {
                     //TODO Need to create flights from Excel worksheet
