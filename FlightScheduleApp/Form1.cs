@@ -42,6 +42,7 @@ namespace FlightScheduleApp
                 fname = dgfOpenTxt.FileName;
                 if (!string.IsNullOrEmpty(fname))
                 {
+                    //TODO Need to create flights from Excel worksheet
                     // Process the csv file and create n instance of Lcis<flights>
                     List<Flight> flights = CreateFlights(fname, dtBegin, dtEnd);
 
