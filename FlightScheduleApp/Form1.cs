@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using FlightTimes;
 using System.Xml.Linq;
+using OfficeOpenXml;
 
 namespace FlightScheduleApp
 {
@@ -62,7 +63,56 @@ namespace FlightScheduleApp
 
         private List<Flight> CreateFlights(string fname)
         {
-            throw new NotImplementedException();
+            using (var package = new ExcelPackage(new FileInfo(fileName)))
+            {
+                var firstSheet = package.Workbook.Worksheets["First Sheet"];
+                var rowCount = firstSheet.Dimension.Rows;
+                var colCount = firstSheet.Dimension.Columns;
+
+                // Loop through each row (alternate rows only)
+                for (int i = 2; i < rowCount + 1; i += 2)
+                {
+                    // Get the start and end dates for the schedules
+                    string commerciAirlineNumber = firstSheet.Cells[i, 1].Text;
+                    string airline;
+                    string strFlightNumber="000";
+                    int startSub = 2;
+                    if (commerciAirlineNumber.StartsWith("F"))
+                    {
+                        airline = "FL";
+                    }
+                    else
+                    {
+                        airline = "ME";
+                        startSub = 3;
+                    }
+                    strFlightNumber = string.Format("{0:000}", commerciAirlineNumber.Substring(startSub));
+
+                    ushort flightNumber = (ushort)Convert.ToInt16(strFlightNumber);
+                    
+                    //TODO split flight into code and number
+                    string departing = firstSheet.Cells[i, 2].Text;
+                    //TODO split departing into ICAO and departure time
+                    string duration = firstSheet.Cells[i, 4].Text;
+                    string arriving = firstSheet.Cells[i, 5].Text;
+                    //TODO split arriving onto ICAO and arrival time
+                    StringBuilder sb = new StringBuilder();
+                    for (int j = 7; j < 14; j++)
+                    {
+                        string day = firstSheet.Cells[i, j].Text;
+
+                        if (firstSheet.Cells[i, j].Text.Length > 0)
+                        {
+                            sb.Append(day);
+                        }
+                    }
+                    string daysOfOperaton = sb.ToString();
+                    string type = firstSheet.Cells[i, 15].Text;
+                  
+
+                }
+            }
+
         }
 
         private List<Flight> CreateFlights(string fname, DateTime dtBegin, DateTime dtEnd)
