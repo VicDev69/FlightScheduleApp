@@ -42,13 +42,19 @@ namespace FlightScheduleApp
             if (dgfOpenTxt.ShowDialog() == DialogResult.OK)
             {
                 fname = dgfOpenTxt.FileName;
-                string fType = fname.Substring(fname.LastIndexOf('.')+1);
+
                 if (!string.IsNullOrEmpty(fname))
                 {
+                    string fType = fname.Substring(fname.LastIndexOf('.')+1);
+                    if(fType.Equals("xlsm")){
+                        List<Flight> flights = CreateFlights(fname);
+                    }
+                    else{
+                    
                     //TODO Need to create flights from Excel worksheet
                     // Process the csv file and create n instance of Lcis<flights>
                     List<Flight> flights = CreateFlights(fname, dtBegin, dtEnd);
-
+                        }
             
                     WriteScheduleXml(flights);
                 }
