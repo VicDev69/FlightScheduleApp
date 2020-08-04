@@ -54,7 +54,7 @@
             this.btnOpenFile.TabIndex = 0;
             this.btnOpenFile.Text = "Open File";
             this.btnOpenFile.UseVisualStyleBackColor = true;
-            this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click);
+            this.btnOpenFile.Click += new System.EventHandler(this.BtnOpenFile_Click);
             // 
             // bntClose
             // 
@@ -64,7 +64,7 @@
             this.bntClose.TabIndex = 1;
             this.bntClose.Text = "Close";
             this.bntClose.UseVisualStyleBackColor = true;
-            this.bntClose.Click += new System.EventHandler(this.bntClose_Click);
+            this.bntClose.Click += new System.EventHandler(this.BntClose_Click);
             // 
             // dtpBegin
             // 
