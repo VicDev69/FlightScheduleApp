@@ -46,7 +46,7 @@ namespace FlightScheduleApp
                     string fType = fname.Substring(fname.LastIndexOf('.') + 1);
                     if (fType.Equals("xlsm"))
                     {
-                        flights = CreateFlights(fname);
+                        flights = CreateFlightsFromExcel(fname);
                     }
                     else
                     {
@@ -61,9 +61,9 @@ namespace FlightScheduleApp
             }
         }
 
-        private List<Flight> CreateFlights(string fname)
+        private List<Flight> CreateFlightsFromExcel(string fName)
         {
-            using (var package = new ExcelPackage(new FileInfo(fileName)))
+            using (var package = new ExcelPackage(new FileInfo(fName)))
             {
                 var firstSheet = package.Workbook.Worksheets["First Sheet"];
                 var rowCount = firstSheet.Dimension.Rows;
@@ -75,27 +75,40 @@ namespace FlightScheduleApp
                     // Get the start and end dates for the schedules
                     string commerciAirlineNumber = firstSheet.Cells[i, 1].Text;
                     string airline;
-                    string strFlightNumber="000";
+                    string strFlightNumber = "000";
                     int startSub = 2;
-                    if (commerciAirlineNumber.StartsWith("F"))
+                    switch (commerciAirlineNumber.Substring(0, 1))
                     {
-                        airline = "FL";
+                        case "F":
+                            airline = "FL";
+                            startSub = 2;
+                            break;
+                        case "M":
+                            airline = "ME";
+                            startSub = 3;
+                            break;
+                        default:
+                            airline = "FL";
+                            startSub = 2;
+                            break;
+
                     }
-                    else
-                    {
-                        airline = "ME";
-                        startSub = 3;
-                    }
+
+
                     strFlightNumber = string.Format("{0:000}", commerciAirlineNumber.Substring(startSub));
 
                     ushort flightNumber = (ushort)Convert.ToInt16(strFlightNumber);
-                    
-                    //TODO split flight into code and number
+
                     string departing = firstSheet.Cells[i, 2].Text;
+                    string departAirport = departing.Substring(0, 4);
+                    string departingTime = departing.Substring(6, 4);
                     //TODO split departing into ICAO and departure time
                     string duration = firstSheet.Cells[i, 4].Text;
                     string arriving = firstSheet.Cells[i, 5].Text;
                     //TODO split arriving onto ICAO and arrival time
+                    string arrAirport = arriving.Substring(0,4);
+                    string arrivingTime = arriving.Substring(6, 4);
+
                     StringBuilder sb = new StringBuilder();
                     for (int j = 7; j < 14; j++)
                     {
@@ -108,10 +121,11 @@ namespace FlightScheduleApp
                     }
                     string daysOfOperaton = sb.ToString();
                     string type = firstSheet.Cells[i, 15].Text;
-                  
+
 
                 }
             }
+            return null;
 
         }
 
