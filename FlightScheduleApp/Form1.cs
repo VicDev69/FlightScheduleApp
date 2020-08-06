@@ -251,21 +251,21 @@ namespace FlightScheduleApp
                 new XElement("PFPX_FLIGHT_LIST",
                     from flight in flights
                     select new XElement("FLIGHT",
-                    new XElement("Airline", flight.Airline),
-                    new XElement("FlightNumber", flight.FlightNumber),
-                    new XElement("CommercialFlightNumber", flight.CommercialFlightNumber),
-                    new XElement("From", flight.From),
-                    new XElement("To", flight.To),
-                    new XElement("STD", flight.STD),
-                    new XElement("STA", flight.STA),
-                    new XElement("MaxPax", flight.MaxPax),
-                    new XElement("MaxCargo", flight.MaxCargo),
-                    new XElement("Repetative", flight.Repetative),
-                    new XElement("IsMaster", flight.IsMaster),
-                    new XElement("BeginDate", flight.BeginDate),
-                    new XElement("EndDate", flight.EndDate),
-                    new XElement("Days", flight.Days),
-                    new XElement("Payload", flight.Payload)
+                    new XElement("Airline", flight.airline),
+                    new XElement("FlightNumber", flight.flightNumber),
+                    new XElement("CommercialFlightNumber", flight.commercialFlightNumber),
+                    new XElement("From", flight.@from),
+                    new XElement("To", flight.to),
+                    new XElement("STD", flight.scheduledTimeOfDeparture),
+                    new XElement("STA", flight.scheduledTimeOfArrival),
+                    new XElement("MaxPax", flight.maxPax),
+                    new XElement("MaxCargo", flight.maxCargo),
+                    new XElement("Repetative", flight.repetative),
+                    new XElement("IsMaster", flight.isMaster),
+                    new XElement("BeginDate", flight.beginDate),
+                    new XElement("EndDate", flight.endDate),
+                    new XElement("Days", flight.days),
+                    new XElement("Payload", flight.payload)
                     )));
             xDoc.Save(@"C:\Users\vicgr\source\repos\FlightScheduleApp\FlightScheduleApp\Demo.xml");
         }

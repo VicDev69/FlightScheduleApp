@@ -10,63 +10,75 @@ namespace FlightTimes
 
         public Flight(string airline, ushort flightNumber, string commercialFlightNumber, 
             string from, string to, string aircraft, string aircraftType, 
-            string aircraftATCType, string sTD, string sTA, int maxPax, int maxCargo, 
+            string aircraftATCType, string scheduledTimeOfDeparture, 
+            string scheduledTimeOfArrival, int maxPax, int maxCargo, 
             int randomPayload, int repetative, int isMaster, string beginDate, 
             string endDate, uint days, int adults, int females, int children, int infants, 
             int baggage, int cargo, int payload)
         {
-            Airline = airline;
-            FlightNumber = flightNumber;
-            CommercialFlightNumber = commercialFlightNumber;
-            From = from;
-            To = to;
-            Aircraft = aircraft;
-            AircraftType = aircraftType;
-            AircraftATCType = aircraftATCType;
-            STD = sTD;
-            STA = sTA;
-            MaxPax = maxPax;
-            MaxCargo = maxCargo;
-            RandomPayload = randomPayload;
-            Repetative = repetative;
-            IsMaster = isMaster;
-            BeginDate = beginDate;
-            EndDate = endDate;
-            Days = days;
-            Adults = adults;
-            Females = females;
-            Children = children;
-            Infants = infants;
-            Baggage = baggage;
-            Cargo = cargo;
-            Payload = payload;
+            this.airline = airline;
+            this.flightNumber = flightNumber;
+            this.commercialFlightNumber = commercialFlightNumber;
+            this.from = from;
+            this.to = to;
+            this.aircraft = aircraft;
+            this.aircraftType = aircraftType;
+            this.aircraftATCType = aircraftATCType;
+            this.scheduledTimeOfDeparture = scheduledTimeOfDeparture;
+            this.scheduledTimeOfArrival = scheduledTimeOfArrival;
+            this.maxPax = maxPax;
+            this.maxCargo = maxCargo;
+            this.randomPayload = randomPayload;
+            this.repetative = repetative;
+            this.isMaster = isMaster;
+            this.beginDate = beginDate;
+            this.endDate = endDate;
+            this.days = days;
+            this.adults = adults;
+            this.females = females;
+            this.children = children;
+            this.infants = infants;
+            this.baggage = baggage;
+            this.cargo = cargo;
+            this.payload = payload;
         }
 
-        public string Airline { get; set; }
-        public ushort FlightNumber { get; set; }
-        public string CommercialFlightNumber { get; set; }
-        public string From { get; set; }
-        public string To { get; set; }
-        public string Aircraft { get; set; }
-        public string AircraftType { get; set; }
-        public string AircraftATCType { get; set; }
-        public string STD { get; set; }
-        public string STA { get; set; }
-        public int MaxPax { get; set; }
-        public int MaxCargo { get; set; }
-        public int RandomPayload { get; set; }
-        public int Repetative { get; set; }
-        public int IsMaster { get; set; }
-        public string BeginDate { get; set; }
-        public string EndDate { get; set; }
-        public uint Days { get; set; }
-        public int Adults { get; set; }
-        public int Females { get; set; }
-        public int Children { get; set; }
-        public int Infants { get; set; }
-        public int Baggage { get; set; }
-        public int Cargo { get; set; }
-        public int Payload { get; set; }
+        // Properties
+        // Airline is derived from the field that cotains CommercialFlightNumber
+        public string airline { get; set; }
+        // Flght is derived from the field that cotains CommercialFlightNumber
+        public ushort flightNumber { get; set; }
+        public string commercialFlightNumber { get; set; }
+        // From and To are Substrings from cells from te data source
+        public string from { get; set; }
+        public string to { get; set; }
+        public string aircraft { get; set; }
+        public string aircraftType { get; set; }
+        public string aircraftATCType { get; set; }
+        // Scheduled Time of Departure is derived from the same cells that contain
+        // the From data
+        public string scheduledTimeOfDeparture { get; set; }
+        // Scheduled Time of Arrival is derived from the same cells that contain
+        // the To data
+        public string scheduledTimeOfArrival { get; set; }
+        public int maxPax { get; set; }
+        public int maxCargo { get; set; }
+        public int randomPayload { get; set; }
+        public int repetative { get; set; }
+        public int isMaster { get; set; }
+        public string beginDate { get; set; }
+        public string endDate { get; set; }
+        public uint days { get; set; }
+        public int adults { get; set; }
+        public int females { get; set; }
+        public int children { get; set; }
+        public int infants { get; set; }
+        public int baggage { get; set; }
+        public int cargo { get; set; }
+        public int payload { get; set; }
+
+        // Methods
+
 
     }
 }
