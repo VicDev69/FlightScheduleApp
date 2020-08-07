@@ -72,41 +72,50 @@ namespace FlightScheduleApp
                 // Loop through each row (alternate rows only)
                 for (int i = 2; i < rowCount + 1; i += 2)
                 {
+                    Flight flight = new Flight();
                     // Get the start and end dates for the schedules
-                    string commerciAirlineNumber = firstSheet.Cells[i, 1].Text;
-                    string airline;
+                    flight.commercialFlightNumber = firstSheet.Cells[i, 1].Text;
+
                     string strFlightNumber = "000";
                     int startSub = 2;
-                    switch (commerciAirlineNumber.Substring(0, 1))
+                    switch (flight.commercialFlightNumber.Substring(0, 1))
                     {
-                        case "F":
-                            airline = "FL";
-                            startSub = 2;
-                            break;
                         case "M":
-                            airline = "ME";
+                            flight.airline = "ME";
                             startSub = 3;
                             break;
                         default:
-                            airline = "FL";
+                            flight.airline = "FL";
                             startSub = 2;
                             break;
 
                     }
 
 
-                    strFlightNumber = string.Format("{0:000}", commerciAirlineNumber.Substring(startSub));
+                    strFlightNumber = string.Format("{0:000}", flight.commercialFlightNumber.Substring(startSub));
 
-                    ushort flightNumber = (ushort)Convert.ToInt16(strFlightNumber);
+                    flight.flightNumber = (ushort)Convert.ToInt16(strFlightNumber);
 
                     string departing = firstSheet.Cells[i, 2].Text;
-                    string departAirport = departing.Substring(0, 4);
-                    string departingTime = departing.Substring(6, 4);
-                    //TODO split departing into ICAO and departure time
+                    flight.from = departing.Substring(0, 4);
+                    flight.scheduledTimeOfDeparture = GetDate(departing.Substring(6, 4));
+                    DateTime tm = DateTime.Parse(flight.scheduledTimeOfDeparture);
+                    // TODO use the following code, or similar, to determine the arrival date/time 
+                    DateTime tm1 =tm.AddHours(5);
+                    DateTime tm2=tm1.AddMinutes(50);
+                    string srtm = tm2.ToString("yyyy/MM/dd HH:mm");
+                    
+
+                    //string departingTime = departing.Substring(6, 4);
                     string duration = firstSheet.Cells[i, 4].Text;
-                    string arriving = firstSheet.Cells[i, 5].Text;
+                    int durationMinutes = Convert.ToInt32(duration.Substring(duration.Length - 2, 2));
+                    int durationHours = Convert.ToInt32(duration.Substring(0, duration.Length-3));
+                    tm = tm.AddHours(durationHours);
+                    tm = tm.AddMinutes(durationMinutes);
+                    flight.scheduledTimeOfArrival = tm.ToString("yyyy/MM/dd hh:mm");
                     //TODO split arriving onto ICAO and arrival time
-                    string arrAirport = arriving.Substring(0,4);
+                    string arriving = firstSheet.Cells[i, 5].Text;
+                    flight.to = arriving.Substring(0, 4);
                     string arrivingTime = arriving.Substring(6, 4);
 
                     StringBuilder sb = new StringBuilder();
@@ -129,6 +138,15 @@ namespace FlightScheduleApp
 
         }
 
+        private string GetDate(string strTime)
+        {
+            DateTime dt = DateTime.Today;
+            string tme = string.Format("{0:00}:{1:00}",strTime.Substring(0,2),
+                strTime.Substring(2,2));
+            string output = string.Format("{0:yyyy/MM/dd} {1:}",dt,tme);
+            return output;
+        }
+
         private List<Flight> CreateFlights(string fname, DateTime dtBegin, DateTime dtEnd)
         {
             List<Flight> flights = new List<Flight>();
@@ -143,13 +161,14 @@ namespace FlightScheduleApp
 
                     string line;
                     int rowCount = 0;
-                    Flight flight;
+                    ;
                     while ((line = sr.ReadLine()) != null)// && rowCount < 6)
                     {
                         if (rowCount % 2 == 1)
                         {
-
+                            Flight flight = new Flight();
                             string[] cols = line.Split('\t');
+                            flight.commercialFlightNumber = cols[0];
                             string commercialFlightNumber = cols[0];
                             string airline = "FL";
                             string strFlightNumber = string.Format("{0:000}", cols[0].Substring(2));
