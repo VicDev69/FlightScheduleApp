@@ -72,7 +72,8 @@ namespace FlightScheduleApp
                 // Loop through each row (alternate rows only)
                 for (int i = 2; i < rowCount + 1; i += 2)
                 {
-                    Flight flight = new Flight();
+                    // Flight flight = new Flight();
+                    Flight flight = new Flight("FL012", "EGCC (1030)", "125", "EGLL (1200)");
                     // Get the start and end dates for the schedules
                     flight.commercialFlightNumber = firstSheet.Cells[i, 1].Text;
 

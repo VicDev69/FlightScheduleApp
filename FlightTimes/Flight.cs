@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 
 namespace FlightTimes
 {
@@ -76,6 +77,51 @@ namespace FlightTimes
         public int baggage { get; set; }
         public int cargo { get; set; }
         public int payload { get; set; }
+
+        public Flight(string commFlNo, string departureData,
+            string duration, string arrivalData)
+        {
+            this.airline = GetAirline(commFlNo);
+            this.flightNumber = GetFlightNumber(commFlNo);
+            this.commercialFlightNumber = GetCommFlNo();
+            this.from = GetFrom(departureData.Substring(6,4));
+            this.scheduledTimeOfDeparture = GetStandardTimeOfDeparture(departureData.Substring(6,4));
+        }
+
+        private string GetStandardTimeOfDeparture(string departureTime)
+        {
+            DateTime dt = DateTime.Today;
+            string tme = string.Format("{0:00}:{1:00}", departureTime.Substring(0, 2),
+                departureTime.Substring(2, 2));
+            string retVal = string.Format("{0:yyyy/MM/dd} {1}", dt, tme);
+            return retVal;
+        }
+
+        private string GetFrom(string departureData)
+        {
+            return departureData.Substring(0, 4);
+        }
+
+        private string GetCommFlNo()
+        {
+            return this.airline + string.Format("{0:000}", this.flightNumber);
+        }
+
+        private string GetAirline(string commFlNo)
+        {
+            return commFlNo.Substring(0, 1) == "F" ? "FL" : "ME";
+        }
+
+        private ushort GetFlightNumber(string commFlNo)
+        {
+            int subStart = 2;
+            if (this.airline.Equals("ME"))
+            {
+                subStart = 3;
+            }
+            ushort retValue = Convert.ToUInt16(commFlNo.Substring(subStart));
+            return retValue;
+        }
 
         // Methods
 
