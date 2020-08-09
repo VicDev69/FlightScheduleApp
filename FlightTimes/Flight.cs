@@ -81,11 +81,26 @@ namespace FlightTimes
         public Flight(string commFlNo, string departureData,
             string duration, string arrivalData)
         {
+            // private variable to hold the deprture time
+            string departureTime = departureData.Substring(6, 4);
             this.airline = GetAirline(commFlNo);
             this.flightNumber = GetFlightNumber(commFlNo);
             this.commercialFlightNumber = GetCommFlNo();
-            this.from = GetFrom(departureData.Substring(6,4));
-            this.scheduledTimeOfDeparture = GetStandardTimeOfDeparture(departureData.Substring(6,4));
+            this.from = GetLocation(departureData.Substring(6,4));
+            this.scheduledTimeOfDeparture = GetStandardTimeOfDeparture(departureTime);
+            this.to = GetLocation(arrivalData.Substring(6, 4));
+            this.scheduledTimeOfArrival = GetStandardTimeOfArrival(duration, arrivalData);
+        }
+
+        private string GetStandardTimeOfArrival(string duration, string arrivalData)
+        {
+            DateTime tm = DateTime.Parse(scheduledTimeOfDeparture);
+            int hr = Convert.ToInt32(duration.Substring(0, duration.Length - 2));
+            int mn = Convert.ToInt32(duration.Substring(duration.Length-2, 2));
+            tm = tm.AddHours(hr);
+            tm = tm.AddMinutes(mn);
+            string retVal = string.Format("{0:yyyy/MM/dd} {1:00}:{2:00}", tm.Date, tm.Hour, tm.Minute);
+            return retVal;
         }
 
         private string GetStandardTimeOfDeparture(string departureTime)
@@ -97,9 +112,9 @@ namespace FlightTimes
             return retVal;
         }
 
-        private string GetFrom(string departureData)
+        private string GetLocation(string locationData)
         {
-            return departureData.Substring(0, 4);
+            return locationData.Substring(0, 4);
         }
 
         private string GetCommFlNo()
